@@ -1,0 +1,42 @@
+[
+  {
+    "taxonomy_id": "00000000",
+    "taxonomy_name": "tree",
+    "train": [
+      "tree00",
+      "tree01",
+      "tree02",
+      "tree03",
+      "tree04",
+      "tree05",
+      "tree06",
+      "tree07",
+      "tree08",
+      "tree09"
+    ],
+    "test": [
+      "tree00",
+      "tree01",
+      "tree02",
+      "tree03",
+      "tree04",
+      "tree05",
+      "tree06",
+      "tree07",
+      "tree08",
+      "tree09"
+    ],
+    "val": [
+      "tree00",
+      "tree01",
+      "tree02",
+      "tree03",
+      "tree04",
+      "tree05",
+      "tree06",
+      "tree07",
+      "tree08",
+      "tree09"
+    ]
+  }
+]

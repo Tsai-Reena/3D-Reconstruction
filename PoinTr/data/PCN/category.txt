@@ -1,0 +1,9 @@
+tree
+airplane
+cabinet
+car
+chair
+lamp
+sofa
+table
+watercraft
