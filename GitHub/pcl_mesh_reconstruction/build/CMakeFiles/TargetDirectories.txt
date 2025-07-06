@@ -1,0 +1,7 @@
+/home/user/GitHub/pcl_mesh_reconstruction/build/CMakeFiles/edit_cache.dir
+/home/user/GitHub/pcl_mesh_reconstruction/build/CMakeFiles/mesh_reconstruction_poissonTexture.dir
+/home/user/GitHub/pcl_mesh_reconstruction/build/CMakeFiles/mesh_reconstruction_poissonColor.dir
+/home/user/GitHub/pcl_mesh_reconstruction/build/CMakeFiles/mesh_reconstruction_poisson.dir
+/home/user/GitHub/pcl_mesh_reconstruction/build/CMakeFiles/rebuild_cache.dir
+/home/user/GitHub/pcl_mesh_reconstruction/build/CMakeFiles/mesh_reconstruction_greedyColor.dir
+/home/user/GitHub/pcl_mesh_reconstruction/build/CMakeFiles/mesh_reconstruction_greedy.dir
