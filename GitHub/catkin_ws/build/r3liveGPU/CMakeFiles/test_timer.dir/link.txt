@@ -1,0 +1,1 @@
+/usr/bin/c++   -std=c++17   -fopenmp -O3 -DNDEBUG -std=c++17 -O3 -lboost_system -msse2 -msse3 -pthread -Wenum-compare    -rdynamic CMakeFiles/test_timer.dir/src/tools/test_timer.cpp.o  -o /home/user/GitHub/catkin_ws/devel/lib/r3liveGPU/test_timer 

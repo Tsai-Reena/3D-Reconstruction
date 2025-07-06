@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC  -std=c++17 -O3 -DNDEBUG -std=c++17 -O3 -lboost_system -msse2 -msse3 -pthread -Wenum-compare  -shared -Wl,-soname,libgmock_main.so -o ../lib/libgmock_main.so CMakeFiles/gmock_main.dir/src/gmock_main.cc.o  -Wl,-rpath,/home/user/GitHub/catkin_ws/build/r3liveGPU/gtest/lib ../lib/libgmock.so ../lib/libgtest.so -lpthread 

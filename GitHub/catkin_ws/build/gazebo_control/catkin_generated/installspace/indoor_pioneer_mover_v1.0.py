@@ -1,0 +1,33 @@
+#!/usr/bin/env python3
+import rospy
+from geometry_msgs.msg import Twist
+
+def move():
+    rospy.init_node('indoor_pioneer_mover')
+    pub = rospy.Publisher('/pioneer2dx/cmd_vel', Twist, queue_size=10)
+    rate = rospy.Rate(10)  # 10 Hz
+
+    # 建立一個靜止的指令
+    stop_twist = Twist()
+    stop_twist.linear.x = 0.0
+    stop_twist.angular.z = 0.0
+
+    rospy.loginfo("Waiting for 5 seconds before moving...")
+    for _ in range(50):  # 5 秒 × 10 Hz
+        pub.publish(stop_twist)
+        rate.sleep()
+
+    twist = Twist()
+    twist.linear.x = 0.5
+    twist.angular.z = 0.0
+
+    rospy.loginfo("Publishing /cmd_vel to move forward...")
+    while not rospy.is_shutdown():
+        pub.publish(twist)
+        rate.sleep()
+
+if __name__ == '__main__':
+    try:
+        move()
+    except rospy.ROSInterruptException:
+        pass

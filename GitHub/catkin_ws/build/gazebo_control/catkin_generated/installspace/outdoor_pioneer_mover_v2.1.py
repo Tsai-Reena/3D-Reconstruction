@@ -1,0 +1,55 @@
+#!/usr/bin/env python3
+
+import rospy
+from geometry_msgs.msg import Twist
+
+'''
+針對小客車，轉彎
+'''
+
+def move_hatchback():
+    rospy.init_node('hatchback_red_controller', anonymous=True)
+    pub = rospy.Publisher('/hatchback_red/cmd_vel', Twist, queue_size=10)
+
+    rate = rospy.Rate(10)  # 10Hz
+    move_cmd = Twist()
+
+    # 建立一個靜止的指令
+    stop_twist = Twist()
+    stop_twist.linear.x = 0.0
+    stop_twist.angular.z = 0.0
+
+    rospy.loginfo("Waiting for 5 seconds before moving...")
+    for _ in range(50):  # 5 秒 × 10 Hz
+        pub.publish(stop_twist)
+        rate.sleep()
+
+    # 第一步：先直走10秒
+    rospy.loginfo("Moving straight for 10 seconds...")
+    for _ in range(17 * 10):  # 10秒 * 10Hz
+        move_cmd.linear.x = 0.5
+        move_cmd.angular.z = 0.0
+        pub.publish(move_cmd)
+        rate.sleep()
+
+    # 第二步：慢慢右轉（逐步加大右轉角速度）
+    rospy.loginfo("Now starting to turn right slowly...")
+    for i in range(10 * 5):  # 接下來5秒內逐漸轉彎
+        move_cmd.linear.x = 0.5
+        move_cmd.angular.z = -0.05 * (i / 50.0)  # 緩慢加速右轉（最多到 -0.1 rad/s）
+        pub.publish(move_cmd)
+        rate.sleep()
+
+    # 第三步：保持轉彎
+    rospy.loginfo("Keep turning...")
+    move_cmd.linear.x = 0.3
+    move_cmd.angular.z = -0.05
+    while not rospy.is_shutdown():
+        pub.publish(move_cmd)
+        rate.sleep()
+
+if __name__ == '__main__':
+    try:
+        move_hatchback()
+    except rospy.ROSInterruptException:
+        pass

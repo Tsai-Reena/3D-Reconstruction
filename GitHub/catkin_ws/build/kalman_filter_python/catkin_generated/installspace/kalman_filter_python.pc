@@ -1,0 +1,8 @@
+prefix=/home/user/GitHub/catkin_ws/install
+
+Name: kalman_filter_python
+Description: Description of kalman_filter_python
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

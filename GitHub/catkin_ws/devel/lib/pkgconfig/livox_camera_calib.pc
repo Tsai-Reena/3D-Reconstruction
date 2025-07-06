@@ -1,0 +1,8 @@
+prefix=/home/user/GitHub/catkin_ws/devel
+
+Name: livox_camera_calib
+Description: Description of livox_camera_calib
+Version: 1.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: roscpp rospy std_msgs

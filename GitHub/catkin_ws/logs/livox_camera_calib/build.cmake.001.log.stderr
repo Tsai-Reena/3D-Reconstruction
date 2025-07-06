@@ -1,0 +1,30 @@
+** WARNING ** io features related to pcap will be disabled
+** WARNING ** io features related to png will be disabled
+** WARNING ** io features related to libusb-1.0 will be disabled
+CMake Warning (dev) in CMakeLists.txt:
+  AUTOGEN: No valid Qt version found for target lidar_camera_calib.  AUTOMOC,
+  AUTOUIC and AUTORCC disabled.  Consider adding:
+
+    find_package(Qt<QTVERSION> COMPONENTS Widgets)
+
+  to your CMakeLists.txt file.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) in CMakeLists.txt:
+  AUTOGEN: No valid Qt version found for target bag_to_pcd.  AUTOMOC, AUTOUIC
+  and AUTORCC disabled.  Consider adding:
+
+    find_package(Qt<QTVERSION> COMPONENTS Widgets)
+
+  to your CMakeLists.txt file.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) in CMakeLists.txt:
+  AUTOGEN: No valid Qt version found for target lidar_camera_multi_calib.
+  AUTOMOC, AUTOUIC and AUTORCC disabled.  Consider adding:
+
+    find_package(Qt<QTVERSION> COMPONENTS Widgets)
+
+  to your CMakeLists.txt file.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+

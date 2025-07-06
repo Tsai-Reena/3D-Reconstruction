@@ -1,0 +1,8 @@
+prefix=/home/user/GitHub/catkin_ws/devel
+
+Name: r3liveGPU
+Description: Description of r3liveGPU
+Version: 1.0.0
+Cflags: -I/home/user/GitHub/catkin_ws/devel/include
+Libs: -L${prefix}/lib 
+Requires: roscpp rospy message_runtime

@@ -1,0 +1,20 @@
+** WARNING ** io features related to pcap will be disabled
+** WARNING ** io features related to png will be disabled
+** WARNING ** io features related to libusb-1.0 will be disabled
+[31m[1mCMake Error[0m at /home/user/GitHub/catkin_ws/src/livox_camera_calib/CMakeLists.txt:27 (find_package):
+  By not providing "FindCeres.cmake" in CMAKE_MODULE_PATH this project has
+  asked CMake to find a package configuration file provided by "Ceres", but
+  CMake did not find one.
+
+  Could not find a package configuration file provided by "Ceres" with any of
+  the following names:
+
+    CeresConfig.cmake
+    ceres-config.cmake
+
+  Add the installation prefix of "Ceres" to CMAKE_PREFIX_PATH or set
+  "Ceres_DIR" to a directory containing one of the above files.  If "Ceres"
+  provides a separate development package or SDK, be sure it has been
+  installed.
+
+

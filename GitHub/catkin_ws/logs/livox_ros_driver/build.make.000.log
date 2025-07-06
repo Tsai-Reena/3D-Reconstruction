@@ -1,0 +1,75 @@
+[35m[1mScanning dependencies of target _livox_ros_driver_generate_messages_check_deps_CustomPoint[0m
+[35m[1mScanning dependencies of target _livox_ros_driver_generate_messages_check_deps_CustomMsg[0m
+[35m[1mScanning dependencies of target std_msgs_generate_messages_py[0m
+[35m[1mScanning dependencies of target std_msgs_generate_messages_nodejs[0m
+[35m[1mScanning dependencies of target std_msgs_generate_messages_eus[0m
+[35m[1mScanning dependencies of target std_msgs_generate_messages_cpp[0m
+[35m[1mScanning dependencies of target std_msgs_generate_messages_lisp[0m
+[  0%] Built target std_msgs_generate_messages_cpp
+[  0%] Built target std_msgs_generate_messages_eus
+[  0%] Built target std_msgs_generate_messages_lisp
+[  0%] Built target std_msgs_generate_messages_py
+[  0%] Built target std_msgs_generate_messages_nodejs
+[  0%] Built target _livox_ros_driver_generate_messages_check_deps_CustomPoint
+[  0%] Built target _livox_ros_driver_generate_messages_check_deps_CustomMsg
+[35m[1mScanning dependencies of target livox_ros_driver_generate_messages_eus[0m
+[35m[1mScanning dependencies of target livox_ros_driver_generate_messages_nodejs[0m
+[35m[1mScanning dependencies of target livox_ros_driver_generate_messages_py[0m
+[35m[1mScanning dependencies of target livox_ros_driver_generate_messages_lisp[0m
+[35m[1mScanning dependencies of target livox_ros_driver_generate_messages_cpp[0m
+[ 15%] [34m[1mGenerating Javascript code from livox_ros_driver/CustomMsg.msg[0m
+[ 15%] [34m[1mGenerating EusLisp manifest code for livox_ros_driver[0m
+[ 15%] [34m[1mGenerating Lisp code from livox_ros_driver/CustomPoint.msg[0m
+[ 15%] [34m[1mGenerating Javascript code from livox_ros_driver/CustomPoint.msg[0m
+[ 19%] [34m[1mGenerating EusLisp code from livox_ros_driver/CustomPoint.msg[0m
+[ 23%] [34m[1mGenerating Python from MSG livox_ros_driver/CustomPoint[0m
+[ 26%] [34m[1mGenerating EusLisp code from livox_ros_driver/CustomMsg.msg[0m
+[ 30%] [34m[1mGenerating C++ code from livox_ros_driver/CustomMsg.msg[0m
+[ 34%] [34m[1mGenerating Lisp code from livox_ros_driver/CustomMsg.msg[0m
+[ 38%] [34m[1mGenerating C++ code from livox_ros_driver/CustomPoint.msg[0m
+[ 42%] [34m[1mGenerating Python from MSG livox_ros_driver/CustomMsg[0m
+[ 42%] Built target livox_ros_driver_generate_messages_lisp
+[ 42%] Built target livox_ros_driver_generate_messages_nodejs
+WARNING: Package name "r3liveGPU" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits, underscores, and dashes.
+[ 42%] Built target livox_ros_driver_generate_messages_cpp
+[35m[1mScanning dependencies of target livox_ros_driver_node[0m
+[ 57%] [32mBuilding CXX object CMakeFiles/livox_ros_driver_node.dir/livox_ros_driver/lds_lvx.cpp.o[0m
+[ 57%] [34m[1mGenerating Python msg __init__.py for livox_ros_driver[0m
+[ 57%] [32mBuilding CXX object CMakeFiles/livox_ros_driver_node.dir/livox_ros_driver/lds_hub.cpp.o[0m
+[ 57%] [32mBuilding CXX object CMakeFiles/livox_ros_driver_node.dir/livox_ros_driver/lvx_file.cpp.o[0m
+[ 61%] [32mBuilding CXX object CMakeFiles/livox_ros_driver_node.dir/livox_ros_driver/ldq.cpp.o[0m
+[ 65%] [32mBuilding CXX object CMakeFiles/livox_ros_driver_node.dir/livox_ros_driver/lds.cpp.o[0m
+[ 69%] [32mBuilding CXX object CMakeFiles/livox_ros_driver_node.dir/livox_ros_driver/lds_lidar.cpp.o[0m
+WARNING: Package name "r3liveGPU" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits, underscores, and dashes.
+[ 80%] [32mBuilding CXX object CMakeFiles/livox_ros_driver_node.dir/timesync/timesync.cpp.o[0m
+[ 80%] [32mBuilding CXX object CMakeFiles/livox_ros_driver_node.dir/timesync/user_uart/user_uart.cpp.o[0m
+[ 80%] [32mBuilding CXX object CMakeFiles/livox_ros_driver_node.dir/common/comm/sdk_protocol.cpp.o[0m
+[ 84%] [32mBuilding CXX object CMakeFiles/livox_ros_driver_node.dir/common/comm/gps_protocol.cpp.o[0m
+[ 88%] [32mBuilding CXX object CMakeFiles/livox_ros_driver_node.dir/livox_ros_driver/lddc.cpp.o[0m
+[ 92%] [32mBuilding CXX object CMakeFiles/livox_ros_driver_node.dir/livox_ros_driver/livox_ros_driver.cpp.o[0m
+[ 96%] [32mBuilding CXX object CMakeFiles/livox_ros_driver_node.dir/common/comm/comm_protocol.cpp.o[0m
+[ 96%] Built target livox_ros_driver_generate_messages_py
+[ 96%] Built target livox_ros_driver_generate_messages_eus
+[35m[1mScanning dependencies of target livox_ros_driver_generate_messages[0m
+[ 96%] Built target livox_ros_driver_generate_messages
+In file included from [01m[K/usr/include/string.h:495[m[K,
+                 from [01m[K/usr/include/c++/9/cstring:42[m[K,
+                 from [01m[K/home/user/GitHub/catkin_ws/src/livox_ros_driver/common/rapidjson/rapidjson.h:45[m[K,
+                 from [01m[K/home/user/GitHub/catkin_ws/src/livox_ros_driver/common/rapidjson/stream.h:19[m[K,
+                 from [01m[K/home/user/GitHub/catkin_ws/src/livox_ros_driver/common/rapidjson/memorystream.h:22[m[K,
+                 from [01m[K/home/user/GitHub/catkin_ws/src/livox_ros_driver/common/rapidjson/encodedstream.h:22[m[K,
+                 from [01m[K/home/user/GitHub/catkin_ws/src/livox_ros_driver/common/rapidjson/document.h:26[m[K,
+                 from [01m[K/home/user/GitHub/catkin_ws/src/livox_ros_driver/livox_ros_driver/lds_lidar.h:36[m[K,
+                 from [01m[K/home/user/GitHub/catkin_ws/src/livox_ros_driver/livox_ros_driver/lds_lidar.cpp:25[m[K:
+In function ‘[01m[Kchar* strncpy(char*, const char*, size_t)[m[K’,
+    inlined from ‘[01m[Kint livox_ros::LdsLidar::ParseTimesyncConfig(rapidjson::Document&)[m[K’ at [01m[K/home/user/GitHub/catkin_ws/src/livox_ros_driver/livox_ros_driver/lds_lidar.cpp:605:17[m[K:
+[01m[K/usr/include/x86_64-linux-gnu/bits/string_fortified.h:106:34:[m[K [01;35m[Kwarning: [m[K‘[01m[Kchar* __builtin_strncpy(char*, const char*, long unsigned int)[m[K’ specified bound 256 equals destination size [[01;35m[K-Wstringop-truncation[m[K]
+  106 |   return [01;35m[K__builtin___strncpy_chk (__dest, __src, __len, __bos (__dest))[m[K;
+      |          [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In function ‘[01m[Kchar* strncpy(char*, const char*, size_t)[m[K’,
+    inlined from ‘[01m[Kint livox_ros::LdsLidar::ParseConfigFile(const char*)[m[K’ at [01m[K/home/user/GitHub/catkin_ws/src/livox_ros_driver/livox_ros_driver/lds_lidar.cpp:668:25[m[K:
+[01m[K/usr/include/x86_64-linux-gnu/bits/string_fortified.h:106:34:[m[K [01;35m[Kwarning: [m[K‘[01m[Kchar* __builtin_strncpy(char*, const char*, long unsigned int)[m[K’ specified bound 16 equals destination size [[01;35m[K-Wstringop-truncation[m[K]
+  106 |   return [01;35m[K__builtin___strncpy_chk (__dest, __src, __len, __bos (__dest))[m[K;
+      |          [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[100%] [32m[1mLinking CXX executable /home/user/GitHub/catkin_ws/devel/lib/livox_ros_driver/livox_ros_driver_node[0m
+[100%] Built target livox_ros_driver_node

@@ -1,0 +1,12 @@
+[35m[1mScanning dependencies of target bag_to_pcd[0m
+[35m[1mScanning dependencies of target lidar_camera_calib[0m
+[35m[1mScanning dependencies of target lidar_camera_multi_calib[0m
+[ 16%] [32mBuilding CXX object CMakeFiles/bag_to_pcd.dir/src/bag_to_pcd.cpp.o[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/lidar_camera_multi_calib.dir/src/lidar_camera_multi_calib.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/lidar_camera_calib.dir/src/lidar_camera_calib.cpp.o[0m
+[ 66%] [32m[1mLinking CXX executable /home/user/GitHub/catkin_ws/devel/lib/livox_camera_calib/bag_to_pcd[0m
+[ 66%] Built target bag_to_pcd
+[ 83%] [32m[1mLinking CXX executable /home/user/GitHub/catkin_ws/devel/lib/livox_camera_calib/lidar_camera_calib[0m
+[100%] [32m[1mLinking CXX executable /home/user/GitHub/catkin_ws/devel/lib/livox_camera_calib/lidar_camera_multi_calib[0m
+[100%] Built target lidar_camera_calib
+[100%] Built target lidar_camera_multi_calib

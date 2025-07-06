@@ -1,0 +1,126 @@
+Not searching for unused variables given on the command line.
+[36m--[0m Using CATKIN_DEVEL_PREFIX: /home/user/GitHub/catkin_ws/devel
+[36m--[0m Using CMAKE_PREFIX_PATH: /home/user/GitHub/catkin_ws/devel;/opt/ros/noetic
+[36m--[0m This workspace overlays: /home/user/GitHub/catkin_ws/devel;/opt/ros/noetic
+[36m--[0m Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3")
+[36m--[0m Using PYTHON_EXECUTABLE: /usr/bin/python3
+[36m--[0m Using Debian Python package layout
+[36m--[0m Using empy: /usr/lib/python3/dist-packages/em.py
+[36m--[0m Using CATKIN_ENABLE_TESTING: ON
+[36m--[0m Call enable_testing()
+[36m--[0m Using CATKIN_TEST_RESULTS_DIR: /home/user/GitHub/catkin_ws/build/livox_camera_calib/test_results
+[36m--[0m Forcing gtest/gmock from source, though one was otherwise available.
+[36m--[0m Found gtest sources under '/usr/src/googletest': gtests will be built
+[36m--[0m Found gmock sources under '/usr/src/googletest': gmock will be built
+[36m--[0m Found PythonInterp: /usr/bin/python3 (found version "3.8.10")
+[36m--[0m Using Python nosetests: /usr/bin/nosetests3
+[36m--[0m catkin 0.8.12
+[36m--[0m BUILD_SHARED_LIBS is on
+[36m--[0m Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
+[36m--[0m Eigen found (include: /usr/include/eigen3, version: 3.3.7)
+[36m--[0m The imported target "vtkParseOGLExt" references the file
+   "/usr/bin/vtkParseOGLExt-7.1"
+but this file does not exist.  Possible reasons include:
+* The file was deleted, renamed, or moved to another location.
+* An install or uninstall procedure did not complete successfully.
+* The installation package was faulty and contained
+   "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+but not all the files it references.
+
+[36m--[0m The imported target "vtkRenderingPythonTkWidgets" references the file
+   "/usr/lib/x86_64-linux-gnu/libvtkRenderingPythonTkWidgets.so"
+but this file does not exist.  Possible reasons include:
+* The file was deleted, renamed, or moved to another location.
+* An install or uninstall procedure did not complete successfully.
+* The installation package was faulty and contained
+   "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+but not all the files it references.
+
+[36m--[0m The imported target "vtk" references the file
+   "/usr/bin/vtk"
+but this file does not exist.  Possible reasons include:
+* The file was deleted, renamed, or moved to another location.
+* An install or uninstall procedure did not complete successfully.
+* The installation package was faulty and contained
+   "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+but not all the files it references.
+
+[36m--[0m The imported target "pvtk" references the file
+   "/usr/bin/pvtk"
+but this file does not exist.  Possible reasons include:
+* The file was deleted, renamed, or moved to another location.
+* An install or uninstall procedure did not complete successfully.
+* The installation package was faulty and contained
+   "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+but not all the files it references.
+
+[36m--[0m OpenNI found (include: /usr/include/ni, lib: /usr/lib/libOpenNI.so)
+[36m--[0m OpenNI2 found (include: /usr/include/openni2, lib: /usr/lib/libOpenNI2.so)
+** WARNING ** io features related to pcap will be disabled
+** WARNING ** io features related to png will be disabled
+** WARNING ** io features related to libusb-1.0 will be disabled
+[36m--[0m OpenNI found (include: /usr/include/ni, lib: /usr/lib/libOpenNI.so)
+[36m--[0m OpenNI2 found (include: /usr/include/openni2, lib: /usr/lib/libOpenNI2.so)
+[36m--[0m QHULL found (include: /usr/include, lib: optimized;/usr/lib/x86_64-linux-gnu/libqhull.so;debug;/usr/lib/x86_64-linux-gnu/libqhull.so)
+[36m--[0m OpenNI found (include: /usr/include/ni, lib: /usr/lib/libOpenNI.so)
+[36m--[0m looking for PCL_COMMON
+[36m--[0m looking for PCL_KDTREE
+[36m--[0m looking for PCL_OCTREE
+[36m--[0m looking for PCL_SEARCH
+[36m--[0m looking for PCL_SAMPLE_CONSENSUS
+[36m--[0m looking for PCL_FILTERS
+[36m--[0m looking for PCL_2D
+[36m--[0m looking for PCL_GEOMETRY
+[36m--[0m looking for PCL_IO
+[36m--[0m looking for PCL_FEATURES
+[36m--[0m looking for PCL_ML
+[36m--[0m looking for PCL_SEGMENTATION
+[36m--[0m looking for PCL_VISUALIZATION
+[36m--[0m looking for PCL_SURFACE
+[36m--[0m looking for PCL_REGISTRATION
+[36m--[0m looking for PCL_KEYPOINTS
+[36m--[0m looking for PCL_TRACKING
+[36m--[0m looking for PCL_RECOGNITION
+[36m--[0m looking for PCL_STEREO
+[36m--[0m looking for PCL_APPS
+[36m--[0m looking for PCL_IN_HAND_SCANNER
+[36m--[0m looking for PCL_POINT_CLOUD_EDITOR
+[36m--[0m looking for PCL_OUTOFCORE
+[36m--[0m looking for PCL_PEOPLE
+[36m--[0m Found installed version of Eigen: /usr/lib/cmake/eigen3
+[36m--[0m Found required Ceres dependency: Eigen version 3.3.7 in /usr/include/eigen3
+[36m--[0m Found required Ceres dependency: glog
+[36m--[0m Found installed version of gflags: /usr/lib/x86_64-linux-gnu/cmake/gflags
+[36m--[0m Detected gflags version: 2.2.2
+[36m--[0m Found required Ceres dependency: gflags
+[36m--[0m Found Ceres version: 1.14.0 installed in: /usr/local with components: [EigenSparse, SparseLinearAlgebraLibrary, LAPACK, SuiteSparse, CXSparse, SchurSpecializations, OpenMP, Multithreading]
+[36m--[0m Configuring done
+CMake Warning (dev) in CMakeLists.txt:
+  AUTOGEN: No valid Qt version found for target lidar_camera_calib.  AUTOMOC,
+  AUTOUIC and AUTORCC disabled.  Consider adding:
+
+    find_package(Qt<QTVERSION> COMPONENTS Widgets)
+
+  to your CMakeLists.txt file.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) in CMakeLists.txt:
+  AUTOGEN: No valid Qt version found for target bag_to_pcd.  AUTOMOC, AUTOUIC
+  and AUTORCC disabled.  Consider adding:
+
+    find_package(Qt<QTVERSION> COMPONENTS Widgets)
+
+  to your CMakeLists.txt file.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) in CMakeLists.txt:
+  AUTOGEN: No valid Qt version found for target lidar_camera_multi_calib.
+  AUTOMOC, AUTOUIC and AUTORCC disabled.  Consider adding:
+
+    find_package(Qt<QTVERSION> COMPONENTS Widgets)
+
+  to your CMakeLists.txt file.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+[36m--[0m Generating done
+[36m--[0m Build files have been written to: /home/user/GitHub/catkin_ws/build/livox_camera_calib
