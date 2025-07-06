@@ -3,6 +3,6 @@
 *.DS_Store
 *.pcd
 *.asc
-
+*.bag
 GitHub/libtorch/lib/libtorch_cpu.so
 GitHub/libtorch/lib/libdnnl.a
