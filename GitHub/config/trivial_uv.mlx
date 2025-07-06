@@ -1,0 +1,15 @@
+<!DOCTYPE FilterScript>
+<FilterScript>
+ <filter name="Parametrization: Trivial Per-Triangle">
+  <Param description="Quads per line" value="0" isxmlparam="0" type="RichInt" name="sidedim" tooltip="Indicates how many triangles have to be put on each line (every quad contains two triangles)&#xa;Leave 0 for automatic calculation"/>
+  <Param description="Texture Dimension (px)" value="1024" isxmlparam="0" type="RichInt" name="textdim" tooltip="Gives an indication on how big the texture is"/>
+  <Param description="Inter-Triangle border (px)" value="2" isxmlparam="0" type="RichInt" name="border" tooltip="Specifies how many pixels to be left between triangles in parametrization domain"/>
+  <Param description="Method" enum_val1="Space-optimizing" value="1" isxmlparam="0" type="RichEnum" enum_val0="Basic" name="method" tooltip="Choose space optimizing to map smaller faces into smaller triangles in parametrizazion domain" enum_cardinality="2"/>
+ </filter>
+ <filter name="Parametrization: Trivial Per-Triangle">
+  <Param description="Quads per line" value="0" isxmlparam="0" type="RichInt" name="sidedim" tooltip="Indicates how many triangles have to be put on each line (every quad contains two triangles)&#xa;Leave 0 for automatic calculation"/>
+  <Param description="Texture Dimension (px)" value="1024" isxmlparam="0" type="RichInt" name="textdim" tooltip="Gives an indication on how big the texture is"/>
+  <Param description="Inter-Triangle border (px)" value="2" isxmlparam="0" type="RichInt" name="border" tooltip="Specifies how many pixels to be left between triangles in parametrization domain"/>
+  <Param description="Method" enum_val1="Space-optimizing" value="1" isxmlparam="0" type="RichEnum" enum_val0="Basic" name="method" tooltip="Choose space optimizing to map smaller faces into smaller triangles in parametrizazion domain" enum_cardinality="2"/>
+ </filter>
+</FilterScript>
