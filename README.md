@@ -93,7 +93,7 @@ Place them in the following directory structure:
 └── READMD.md
 ```
 
-## Usage / Experiment
+## Usage / Experiment 實驗執行
 ### 1. Prepare input data
 
 * Record SLAM data using R3LIVE with LiDAR + RGB + IMU.
@@ -116,7 +116,7 @@ Open `config.yaml` (or modify variables inside `demo_run.sh`) and set:
 | `USE_POISSON`        | Use Poisson for mesh reconstruction   | `true`               |
 | `IS_POINTR`          | Enable PoinTr object-level completion | `true`               |
 
-### 2. Run the full pipeline demo
+### 3. Run the full pipeline demo
 Use the provided demo script for a one-command workflow:
 ```bash
 cd GitHub
@@ -146,7 +146,7 @@ This will automatically execute three main steps:
 ### 3. Output structure
 After running the pipeline, the reconstructed OBJ results are stored in `OUTPUT_DIR`.
 
-## Gazebo Integration
+## Gazebo Integration 模擬器整合
 After the reconstruction pipeline finishes, you can deploy the textured scene into Gazebo and control a robot via your existing ROS launch file.
 
 ### 1. Export URDF-ready scenes
