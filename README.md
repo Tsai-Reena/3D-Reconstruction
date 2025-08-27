@@ -5,6 +5,7 @@
 [![Demo2](demo/demo2.gif)](demo/demo2.mp4)
 
 ## Project Overview 專案簡介
+## Project Overview 專案簡介
 
 This project provides an **end-to-end 3D scene reconstruction pipeline** that transforms **sparse SLAM point clouds (R3LIVE outputs)** into **simulation-ready environments**.  
 The framework integrates three key modules:  
@@ -191,4 +192,49 @@ roslaunch gazebo_control pioneer_autorun_indoor.launch
 
 # Outdoor (if you have an outdoor launch/world)
 roslaunch gazebo_control pioneer_autorun_outdoor.launch
+```
+
+## Citation
+If you use this project or find it helpful in your research, please consider citing the following references:
+```bibtex
+@inproceedings{lin2022r3live,
+  title     = {R3LIVE: A robust, real-time, RGB-colored, LiDAR-inertial-visual tightly coupled state estimation and mapping package},
+  author    = {Lin, J. and Zhang, F.},
+  booktitle = {Proceedings of the IEEE International Conference on Robotics and Automation (ICRA)},
+  pages     = {1060--1067},
+  year      = {2022}
+}
+
+@inproceedings{yu2021pointr,
+  title     = {PoinTr: Diverse point cloud completion with geometry-aware transformers},
+  author    = {Yu, X. and Tang, J. and Rao, Y. and Wang, Z. and Huang, T.S. and Liang, J.},
+  booktitle = {Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV)},
+  pages     = {12498--12507},
+  year      = {2021}
+}
+
+@inproceedings{zeng2024paint3d,
+  title     = {Paint3D: Paint anything 3D with lighting-less texture diffusion models},
+  author    = {Zeng, X. and Xu, X. and Li, Y. and Zhang, Y. and Wang, Y.},
+  booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+  pages     = {6543--6552},
+  year      = {2024}
+}
+
+@article{zhao2025hunyuan3d2,
+  title     = {Hunyuan3D-2: Scaling diffusion models for high-resolution textured 3D assets generation},
+  author    = {Zhao, Z. and Yang, X. and Xu, Y. and Wang, H.},
+  journal   = {arXiv preprint arXiv:2501.12202},
+  year      = {2025}
+}
+
+@article{mildenhall2020nerf,
+  title     = {NeRF: Representing scenes as neural radiance fields for view synthesis},
+  author    = {Mildenhall, B. and Srinivasan, P.P. and Tancik, M. and Barron, J.T. and Ramamoorthi, R. and Ng, R.},
+  journal   = {Communications of the ACM},
+  volume    = {65},
+  number    = {1},
+  pages     = {99--106},
+  year      = {2020}
+}
 ```
