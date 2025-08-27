@@ -5,7 +5,6 @@
 [![Demo2](demo/demo2.gif)](demo/demo2.mp4)
 
 ## Project Overview 專案簡介
-## Project Overview 專案簡介
 
 This project provides an **end-to-end 3D scene reconstruction pipeline** that transforms **sparse SLAM point clouds (R3LIVE outputs)** into **simulation-ready environments**.  
 The framework integrates three key modules:  
