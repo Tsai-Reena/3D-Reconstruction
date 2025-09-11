@@ -21,7 +21,7 @@ The framework integrates three key modules:
    - Outdoor background: **Paint3D** diffusion-based texture generation  
    - Indoor objects: **Hunyuan3D-2** single-view textured mesh generation  
 
-Final outputs are **meshed, textured, URDF-compatible** models that can be directly deployed in **Gazebo** for robotics, autonomous navigation, and digital twin applications:contentReference[oaicite:2]{index=2}:contentReference[oaicite:3]{index=3}.
+Final outputs are **meshed, textured, URDF-compatible** models that can be directly deployed in **Gazebo** for robotics, autonomous navigation, and digital twin applications.
 
 本專案提出一個整合 **GPU 加速建圖、幾何補全、與擴散模型紋理生成** 的三維重建系統。輸入為 SLAM 稀疏點雲，輸出為高擬真之紋理化場景，可直接應用於 **Gazebo 模擬器**，支援智慧工廠、自駕車與機器人應用。
 
